@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jaydeep Das</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Jaydeep Das</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Jaydeep Das</h2>
+      <P>Sr.Manager Sales at SAS
+        Mumbai, Maharashtra, India</P>
+      <h5>MY PERSONAL WEBPAGE.HERE YOU CAN FIND ALL ABOUT MY PROFFESION AND EDUCATION</h5>
+      <div> <img src="papa img.jfif">  </div>
+      <p>About:
+        Core experience in Sales and Account Management
+        
+        Certified P&C Insurance Consultant(AINS 21 & 22). </p>
+    </div>
+    <div class="card">
+      <h2>EDUCATION</h2>
+      <h5>Here it starts!</h5>
+      <p>Management Development InstituteManagement Development Institute Graphic
+        Management Development Institute                 
+
+        PGDMMarketing
+        Orissa Engineering College Graphic
+        Orissa Engineering College
+        Bachelor of Engineering (BEng)Computer Science
+        1999 - 2003                           
+
+        
+        Stewart School Cuttack Graphic
+        Stewart School Cuttack</p>
+    </div>
+  </div>
+    <div class="card">
+     
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Thank you for visiting my webpage</h2>
+</div>
+
+</body>
+</html>
